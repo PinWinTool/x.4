@@ -1,0 +1,40 @@
+delay Delayms#include <delay.c>
+delayMicroseconds Delayus#include <delay.c>
+
+millis millis#include <millis.c>#define __MILLIS__
+
+digitalWrite digitalwrite#include <digitalw.c>
+pinMode pinmode#include <digitalw.c>
+digitalRead digitalread#include <digitalw.c>
+toggle toggle#include <digitalw.c>
+
+analogRead analogread#include <analog.c>
+analogWrite PWM_set_dutycycle#include <pwm.c>
+
+min min#include <macro.h>
+max max#include <macro.h>
+abs abs#include <stdlib.h>
+constrain constrain#include <macro.h>
+map map#include <mathlib.c>
+powf powf#include <math.h>
+sqrtf sqrtf#include <math.h>
+absf fabsf#include <math.h>
+sinf sinf#include <math.h>
+cosf cosf#include <math.h>
+tanf tanf#include <math.h>
+sinr sinr#include <trigo.h>
+cosr cosr#include <trigo.h>
+
+randomSeed srand#include <stdlib.h>
+pulseIn pulseIn#include <pulse.c>
+bitRead BitRead#include <macro.h>
+bitSet BitSet#include <macro.h>
+bitWrite BitSet#include <macro.h>
+bitClear BitClear#include <macro.h>
+bit Bit#include <macro.h>
+lowByte low8#include <macro.h>
+highByte high8#include <macro.h>
+
+Sprintf psprintf#include <stdio.c>
+Printf pprintf#include <stdio.c>
+KB.get Keyboard_get#include <misc.c>

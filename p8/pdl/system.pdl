@@ -1,0 +1,26 @@
+System.getCpuFrequency SystemGetClock#include <oscillator.c>
+System.getPeripheralFrequency SystemGetPeripheralClock#include <oscillator.c>
+System.setCpuFrequency SystemSetIntOsc#include <oscillator.c>#define SYSTEMSETINTOSC
+System.setPeripheralFrequency SystemSetPeripheralFrequency#include <oscillator.c>#define SYSTEMSETPERIPHERALFREQUENCY
+System.setIntOsc SystemSetIntOsc#include <oscillator.c>#define SYSTEMSETINTOSC
+System.setExtOsc SystemSetExtOsc#include <oscillator.c>#define SYSTEMSETEXTOSC
+System.setTimerOsc SystemSetTimer1Osc#include <oscillator.c>#define SYSTEMSETTIMER1OSC
+
+System.unlock SystemUnlock#include <system.c>#define SYSTEMUNLOCK
+System.lock SystemLock#include <system.c>#define SYSTEMLOCK
+System.reset SystemReset#include <system.c>#define SYSTEMRESET
+
+System.watchdog SystemWatchdog#include <watchdog.c>#define SYSTEMWATCHDOG
+System.noWatchdog SystemNoWatchdog#include <watchdog.c>#define SYSTEMNOWATCHDOG
+System.clearWatchdog SystemClearWatchdog#include <watchdog.c>#define SYSTEMCLEARWATCHDOG
+System.deepWatchdog SystemDeepWatchdog#include <watchdog.c>#define SYSTEMDEEPWATCHDOG
+System.noDeepWatchdog SystemNoDeepWatchdog#include <watchdog.c>#define SYSTEMNODEEPWATCHDOG
+System.clearDeepWatchdog SystemClearDeepWatchdog#include <watchdog.c>#define SYSTEMCLEARDEEPWATCHDOG
+
+System.idle SystemIdle#include <lowpower.c>#define SYSTEMIDLE
+System.run SystemRun#include <lowpower.c>#define SYSTEMRUN
+System.sleep SystemSleep#include <lowpower.c>#define SYSTEMSLEEP
+System.lowPower SystemSleep#include <lowpower.c>#define SYSTEMSLEEP
+System.deepSleep SystemDeepSleep#include <lowpower.c>#define SYSTEMDEEPSLEEP
+System.ultraLowPower SystemDeepSleep#include <lowpower.c>#define SYSTEMDEEPSLEEP
+System.deepSleepWakeUp SystemDeepSleepWakeUp#include <lowpower.c>#define SYSTEMDEEPSLEEPWAKEUP
