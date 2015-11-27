@@ -11,9 +11,9 @@ distribute and modify it.
 
 Pinguino is an arduino like environment built in Python.
 It is a complete package with compiler, assembler, linker and bootloader.
-Pinguino is compatible with arduino/wiring langage.
+Pinguino is compatible with arduino/wiring language.
 
-## dependencies:
+## Dependencies
 
 ### Linux
 - libusb
@@ -32,21 +32,20 @@ Pinguino is compatible with arduino/wiring langage.
 
 ## Pinguino (8 bit) is based on open source software:
 
-- compiler			SDCC 		http://sdcc.sourceforge.net/
-- asm/linker		GPUTILS		http://gputils.sourceforge.net/
-- bootloader (v1,2)	VASCO project	http://vasco.gforge.enseeiht.fr/
-- bootloader (v3)	Diolan		http://www.diolan.com/pic/
-- bootloader (v4)	JAL Project	http://www.justanotherlanguage.org/
-					and Alexander Enzmann's USB Framework
-- IDE				Python		http://www.python.org/
+- compiler      SDCC                 http://sdcc.sourceforge.net/
+- asm/linker    GPUTILS              http://gputils.sourceforge.net/
+- bootloader    (v1,2) VASCO project http://vasco.gforge.enseeiht.fr/
+- bootloader    (v3) Diolan          http://www.diolan.com/pic/
+- bootloader    (v4) JAL Project     http://www.justanotherlanguage.org/
+                and Alexander Enzmann's USB Framework
+- IDE           Python               http://www.python.org/
 
 ## Pinguino (32 bit) is based on open source software:
 
-- compiler		GCC		http://http://gcc.gnu.org/
-- asm/linker	BINUTILS	http://www.gnu.org/
-- C library		Newlib		http://sourceware.org/newlib/
-- IDE			Python		http://www.python.org/
-
+- compiler    GCC       http://gcc.gnu.org/
+- asm/linker  BINUTILS  http://www.gnu.org/
+- C library   Newlib    http://sourceware.org/newlib/
+- IDE         Python    http://www.python.org/
 
 Contributions, bug reports and questions are welcome.
 rblanchot@gmail.com
